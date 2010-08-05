@@ -1,0 +1,63 @@
+-- RMU ZERO SESSION | PROBLEM 12
+-- Submissions due 12:00 UTC 8/10
+
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
+For exercise #2, you'll be writing an IRC bot!  But not just any IRC bot, one
+that integrates with a web service to give you a chat based interface to some
+neat app out there.  This will give you a chance to practice web service
+integration while simultaneously producing some neat toys for us to play with
+in our IRC channel.
+
+This exercise is pretty open ended, but please follow the guidelines listed below.
+
+== GUIDELINES
+
+1. You can use any Ruby based IRC framework you'd like to write your bot.  I
+would recommend looking at cinch or isaac, but if you know of another library
+you want to use, go for it.
+
+2. You must integrate with some external application, preferably one that you
+haven't interacted with programatically before.
+
+3. Any service that we all can access via HTTP without charge is fair game.  
+Even if you want to do something like use Mechanize to scrape a site that 
+has no defined service API, that'd be acceptable.
+
+4. Your bot needs to connect to #rmu-session-0 and have the word bot in its
+nickname.  
+
+5. All interaction with your bot should be done by simply reading the messages
+posted to #rmu-session-0 and responding to certain messages that form your
+interface.
+
+6. You should use the mailing list to communicate what sorts of bots you are
+building, and what sorts of commands they will respond to, so as to avoid
+clashes with other student's bots.  Ideally, no two bots will respond to the
+same command, or provide the same featureset.
+
+7. You may test your bot in #rmu-session-0 whenever there is not active
+conversation going on.  You're encouraged to do so in fact, just because it'll
+be fun to see things as they come together.
+
+8. You may look at other bots for inspiration, but do not submit a solution that
+simply mirrors something else you found.  Be creative :)
+
+== EXAMPLE
+
+A weather bot:
+
+<sandal>: !weather 06770
+<examplebot>: It's super sunny and hot, buddy! 
+
+A search bot:
+
+<sandal> !google Cats
+<examplebot>: http://icanhascheezburger.com | http://kittens.com | ...
+
+But since both of these have been done so many times before, please pick
+something else.
+
+== QUESTIONS?
+
+Hit up the mailing list or IRC.
